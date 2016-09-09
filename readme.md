@@ -28,6 +28,7 @@ $ mysql-ctl cli
 
 
 # Angular Folder Structure
+```
 -- public
 ---- app
 ------ controllers
@@ -35,6 +36,7 @@ $ mysql-ctl cli
 ------ packages
 ------ services
 ------ routes.js
+```
 
 # Test Site
 
