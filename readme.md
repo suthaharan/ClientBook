@@ -2,18 +2,22 @@
 
 [Notes for Laravel Installation on Cloud 9](https://community.c9.io/t/getting-started-with-laravel/1608)
 
-
+```
 $ rm README.md php.ini hello-world.php
 $ sudo composer self-update
 $ composer create-project laravel/laravel ./laravel --prefer-dist
 $ shopt -s dotglob
 $ mv laravel/* ./
 $ rm -rf laravel
+```
 
+Settings for MySQL (under .env)
+```
 MySQL Root User: username
 Database Name: c9
 Hostname: localhost
 Pass: empty
+```
 
 [MySQL Setup on C9](https://community.c9.io/t/setting-up-mysql/1718)
 
